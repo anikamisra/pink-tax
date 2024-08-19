@@ -14,3 +14,5 @@ As of August 19th, that has not changed. As of august 19th, here are the top 5 e
 5. puma
 6. columbia sportswear
 7. under armour 
+
+Stanford research paper: https://www-nlp.stanford.edu/pubs/pryzant2017sigir.pdf 
