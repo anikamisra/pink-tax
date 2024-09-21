@@ -6,15 +6,10 @@ I had been looking for non-expensive, womens athlesiure clothes when a friend su
 **Collecting data**
 Despite collecting an [absurd amount of data](https://www.businessnewsdaily.com/10625-businesses-collecting-data.html) from their customers and site visitors, e-commerce companies make it nearly impossible for a customer to collect even a fraction of their data back. Here were some of the obstacles I noticed when doing this project.
 1. Varying HTML tags: In my experience, e-commerce companies will not use certain html tags like "price" and "product" for you to find their information in their site. They often give these HTML tags strange, complex names. This is probably to protect against bots, but also makes it more challenging to run a generalized search across all clothing sites.  
-2. 
-
-**Gender separation**
-E-commerce companies and many other types of retailers also deploy certain strategies to prevent a customer from doing a direct pricing comparison by a certain demographic, such as gender. Here were some of the features I noticed. 
-1. Different names for products across gender: E-commerce companies rarely give the same name to, say, a pair of womens shorts and a pair of mens shorts. This makes it more difficult to run a direct comparison across the two because one is not certain exactly what should be compared. (This is where natural language processing comes into play!) 
-2. lakdjf
+2. Gender separation: Not only do e-commerce sites separate sections by gender, but they also rarely give the same name to the same type of product. For example, mens shorts might be called "Ultra-sport shorts" whereas womens shorts are called "High-cut shorts". Both of these features make it more difficult to run a direct comparison across the two because one is not certain exactly what should be compared. (This is where natural language processing comes into play!)
 
 ### The argument of different products 
-A common argument for pricing disparity between gender is that one clothing item may be of higher quality than another. For example, on a certain site, men's shorts are made of cotton and women's shorts are made of polyester, hence it is fair for a site to price men's shorts higher. Or, women's clothing requires a more complicated sort of cut than men's clothes, hence requiring  a higher price. My rebuttal to this argument is: that's not a choice by the consumer. When I am shopping on an e-commerce website, if my only option is a more expensive, cotton short, then I am still being required to pay a higher price for a certain product against my preferences. Hence, when undertaking 
+A common argument for pricing disparity between gender is that one clothing item may be of higher quality than another. For example, on a certain site, men's shorts are made of cotton and women's shorts are made of polyester, hence it is fair for a site to price men's shorts higher. Or, women's clothing requires a more complicated sort of cut than men's clothes, hence requiring  a higher price. My rebuttal to this argument is: that's not a choice by the consumer. When I am shopping on an e-commerce website, if my only option is a more expensive, cotton short, then I am still being required to pay a higher price for a certain product against my preferences.  
 
 Largest clothing companies by market cap: 
 https://companiesmarketcap.com/clothing/largest-clothing-companies-by-market-cap/ 
