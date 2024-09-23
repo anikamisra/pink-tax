@@ -25,34 +25,28 @@ I performed ethical webscraping during this project by usually not even using an
 ### Another important note 
 All of the results found in this project are not implying that a clothing company deliberately makes clothing a higher price for one gender compared to another. These are the results from my own Natural Language Processing analysis and are merely a reflection of any data that I find.   
 
+## Athlesiure companies 
 
-Largest clothing companies by market cap: 
-https://companiesmarketcap.com/clothing/largest-clothing-companies-by-market-cap/ 
-
-On July 31, Nike was the top athlesiure brand. 
-
-As of August 19th, that has not changed. As of august 19th, here are the top 5 exclusively athleisure brands: 
-
+### Choosing athlesiure brands 
+To choose athlesiure brands, I looked at the largest clothing companies by market cap from [this website](https://companiesmarketcap.com/clothing/largest-clothing-companies-by-market-cap/). I ended up going with these three: 
 1. Nike
-2. Adidas
-3. Lululemon
-4. jd sports fashion (looks like they're just a reseller though so idk about this one)
-5. puma
-6. columbia sportswear
-7. under armour 
+2. Lululemon
+3. Gymshark 
 
-Stanford research paper: https://www-nlp.stanford.edu/pubs/pryzant2017sigir.pdf 
+# Machine learning
 
-1. Choosing athlesiure brands 
-To choose athlesiure brands, I looked at the largest clothing companies by market cap: 
-https://companiesmarketcap.com/clothing/largest-clothing-companies-by-market-cap/ 
-and I selected the top 4 that weren't multi-brand retailers (aka, they sold their own product). Finally, for the fifth company, I used the one that inspired this project - Gymshark. 
+### Initial statistical analysis 
+I began with the gymshark data because the product descriptions were simpler to work with, with only ~30 unique words in the set of all product descriptions for womens and mens clothing, respectively. I created thirteen clothing categories (tanks, sweaters, etc) and placed items into categories based on which words were in the product description. Then, when comparing comparable categories between mens clothing and womens clothing, I found that indeed, womens clothing was priced higher in every category. 
 
-The five athlesiure brands I ended up choosing were: 
-1. Nike 
-2. Adidas 
-3. Lululemon 
-4. Puma 
-5. Gymshark 
+Limitations of this approach: this approach is time-consuming and depends on my own interpretation of clothing categories, which can be subjective. 
 
-2. 
+### Converting language data into numerical data  
+The product descriptions of Lululemon and Nike were a bit more complex, so I wanted to run some sort of algorithm that could not only predict the price based on clothing labels, but also tell me which words in the product description influenced the price in which way. Immediately, I thought of Lasso, which was the model I used in my internship over the summer. Lasso is great for feature selection because it gives you the coefficients of each feature which tell you how the coefficient influences the outcome. However, to use Lasso, I had to create a feature matrix with numerical input. I thought of the Bag of Words method, since order does not matter in this project but rather the word alone (we are trying to find the most influential one). So, I created a feature matrix as such: 
+**rows**: each row corresponds to the "sample", i.e. the product description of one product. 
+**columns** each column represented one word in the set of all words in the product descriptions. 
+If the product description contained a word, then I put "1" in the column that represented that word. Otherwise, I put 0. 
+Then, I added a "womens" column and placed "1" in all the product descriptions that came from the womens page. 
+**output** the output column was just the price corresponding to that product. 
+
+### Models 
+As mentioned earlier, I ran Lasso because I liked its coefficients feature that tells you which feature is most influential and in which way. However, pricing models are rarely linear. I then learned about SHAP values, which can be paired with neural net models such as Random Forest Regressor and can tell you which features influenced the output variable in each iteration of the model. 
