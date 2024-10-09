@@ -50,3 +50,5 @@ Then, I added a "womens" column and placed "1" in all the product descriptions t
 
 ### Models 
 As mentioned earlier, I ran Lasso because I liked its coefficients feature that tells you which feature is most influential and in which way. However, pricing models are rarely linear. I then learned about SHAP values, which can be paired with neural net models such as Random Forest Regressor and can tell you which features influenced the output variable in each iteration of the model. 
+
+The rest is still in progress... 
