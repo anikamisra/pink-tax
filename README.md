@@ -1,6 +1,4 @@
 # Introduction 
-### Inspiration for this project 
-I had been looking for non-expensive, womens athlesiure clothes when a friend suggested going to a certain website (let's call it Website A). He told me that all the shorts on Website A were "cheap". I was mildly surprised, as I was certain I had looked on Website A before and the shorts had been expensive. Regardless, as per his recommendation, I visited the site again, and was not surprised that indeed, all the womens shorts were still expensive. Then, out of curiousity, I visited the mens site. To my surprise (and mild outrage), the mens shorts were being sold at a lower value. However, I was only able to obtain this impression by scrolling through many of the products and creating an estimate in my head. I needed numbers and statistics to back up my impression. Hence, this project was born. 
 
 ### Goals
 - Analyze clothing data from 3-5 e-commerce athlesiure websites to see if adding a "womens" label leads to a higher price for the same type of product compared to "mens". 
