@@ -1,13 +1,21 @@
 # Introduction 
+### Background 
+Gender-based price discrimination is [illegal in California](https://oag.ca.gov/ab1287#:~:text=AB%201287%2C%20California's%20Pink%20Tax,girls%20typically%20having%20higher%20prices), but there are still many loopholes that companies may use to charge a higher price to a specific demographic. For example: 
+1. Different names: Calling women's sweatpants "joggers" and men's sweatpants "sweatpants", so that they are technically not the "same product" and the company can charge more for "joggers" than "sweatpants".  
+2. Material: Making the women's shirts out of cotton and the men's shirt out of polyester to justify a 70% higher price for the women's shirts, even though cotton may only be 20% more expensive than polyester.
+3. Style: Making women's shirts a "cropped style" to justify more labor and therefore a higher price, even though cropping the women's shirts might actually make them cheaper to produce since less fabric is used.   
 
-### Goals
-- Analyze clothing data from 3-5 e-commerce athlesiure websites to see if adding a "womens" label leads to a higher price for the same type of product compared to "mens". 
-- Use natural language processing tools to associate product descriptions with prices.
-- Use natural language processing to compare similar products that might have a different name. 
-- Raise awareness about gender disparities in pricing, and provide tools to enable others to run their own analyses.
+It is not always women who are negatively affected by this - these tools can be used to target any specific demographic, including men.
 
-### Important note 
-This project focuses on the _label assigned by the e-commerce company_ to the clothing. In this project, whenever I refer to "womens" clothing, I am referring specifically to the _label_ that the e-commerce company assigned to the clothing, not implying that this article of clothing may only be worn by those who identify as women. In reality, it is not required for women to shop only womens clothes and for men to shop only mens clothes. Furthermore, gender is complex and goes beyond simple "womens" and "mens" clothing labels. 
+### Motivations: 
+When consumers are comparing womens products versus mens products, they might get a "general vibe" that one demographic's clothing is priced slightly higher than the other. However, direct pricing comparisons are difficult to make due to the factors listed above. Furthermore, oftentimes, consumers don't even think to compare product demographics because they are conveniently separated on every web page ("womens clothing" pages are almost always separated from "mens clothing" pages in the same company). 
+
+### Main question: 
+**<mark style = "background: yellow">How can we use Machine Learing and Artificial Intelligence to find a generalized approach to **quantifying** this type of discrimination?</mark>** 
+
+**Important note:** This project focuses on the _label assigned by the e-commerce company_ to the clothing. In this project, whenever I refer to "womens" clothing, I am referring specifically to the _label_ that the e-commerce company assigned to the clothing, not implying that this article of clothing may only be worn by those who identify as women. In reality, it is not required for women to shop only womens clothes and for men to shop only mens clothes. Furthermore, gender is complex and goes beyond simple "womens" and "mens" clothing labels. 
+
+# Process 
 
 ### Challenges faced 
 Despite collecting an [absurd amount of data](https://www.businessnewsdaily.com/10625-businesses-collecting-data.html) from their customers and site visitors, e-commerce companies make it nearly impossible for a customer to collect even a fraction of their data back. Here were some of the obstacles I noticed when doing this project.
