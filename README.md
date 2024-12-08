@@ -47,6 +47,7 @@ My analysis was done on **gymshark**. (The other companies are still in progress
 ### Limitations and discussion 
 - My final result isn't as clean as the manual analysis, especially for categories like the hoodies and shirts.
 - However the clothing categories still make sense and enable us to automate a pricing comparison across gender.
+- cropping out  model faces in photos might not be enough to reduce gender bias since men and women tend to have different physiques as well 
 - Multimodal approach still led to significantly better results than the other approaches. This is because when I was creating the manual analysis, I was relying heavily on visual data to categorize items.    
 
 # More information  
