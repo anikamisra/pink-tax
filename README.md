@@ -37,12 +37,15 @@ My analysis was done on **gymshark**. (The other companies are still in progress
 <img src="https://github.com/user-attachments/assets/b746705c-171f-4cf4-a1d9-f0c20af79fb5" alt="price_comparison_final" width="200"/>
 
 - **result**: early fusion had the best result with successfully creating cohesive clothing categories irrespective of gender, for hoodies/shirts, bras, pants, outerwear, socks:
-<img width="200" alt="Screenshot 2024-12-08 at 3 24 45 PM" src="https://github.com/user-attachments/assets/ca26bd94-a654-4821-90f4-7d6ceb774c63">
-<img width="200" alt="Screenshot 2024-12-08 at 3 24 50 PM" src="https://github.com/user-attachments/assets/577b47dc-315f-4917-8435-6245a3910a46">
+
+<img width="333" alt="cluster_sample_results_1" src="https://github.com/user-attachments/assets/1e0990a3-8902-4180-bb58-6f88948b6a21" />
+<img width="333" alt="cluster_sample_results_2" src="https://github.com/user-attachments/assets/714bacc7-46a8-4d6b-9578-cb2125970f56" />
+
+
 
 
 <br>Successfully created an automated approach in quantifying gender-based price discrimination: 
-<img width="712" alt="Screenshot 2024-12-08 at 3 29 20 PM" src="https://github.com/user-attachments/assets/0e7309b2-87f3-4f7e-95e6-f3213f13a4e8">
+<img width="712" alt="final_results_clean_fixed" src="https://github.com/user-attachments/assets/b9568aac-6a91-408a-81cc-346d0e5220a8" />
 
 ### Limitations and discussion 
 - My final result isn't as clean as the manual analysis, especially for categories like the hoodies and shirts.
