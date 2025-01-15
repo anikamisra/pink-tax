@@ -48,9 +48,10 @@ My analysis was done on **gymshark**. (The other companies are still in progress
 <img width="712" alt="final_results_clean_fixed" src="https://github.com/user-attachments/assets/b9568aac-6a91-408a-81cc-346d0e5220a8" />
 
 ### Limitations and discussion 
-- My final result isn't as clean as the manual analysis, especially for categories like the hoodies and shirts.
-- However the clothing categories still make sense and enable us to automate a pricing comparison across gender.
-- cropping out  model faces in photos might not be enough to reduce gender bias since men and women tend to have different physiques as well 
+- My final result isn't as clean as the manual analysis, especially for categories like the hoodies and shirts. However, the clothing categories still make sense and enable us to automate a pricing comparison across gender.
+- Cropping out  model faces in photos might not be enough to reduce gender bias since men and women tend to have different physiques as well
+- The dataset containing the prices was a different dataset than the one containing all the products analyzed (this was due to issues scraping the pricing data). As a result, some of the products might have been omitted when combining datasets - as we can see with the "mens socks" category.
+- There aren't quantitative benchmarks to determine what creates a "cohesive" clothing category, and hence what makes one clothing category organization "better" than another. I had to simply go off of what "looked" the most cohesive. 
 - Multimodal approach still led to significantly better results than the other approaches. This is because when I was creating the manual analysis, I was relying heavily on visual data to categorize items.    
 
 # More information  
