@@ -1,5 +1,11 @@
 ### Main question: 
-How can we use Machine Learing and Artificial Intelligence to find a generalized approach to **quantifying** gender-based price discrimination in clothing companies?
+How can we use multimodal Machine Learing and Artificial Intelligence to find a generalized approach to **quantifying** gender-based price discrimination in clothing companies?
+**Skills**: 
+- multimodal ML
+- computer vision
+- NLP
+- early & fusion
+- webscraping 
 
 # Summary 
 My analysis was done on **gymshark**. (The other companies are still in progress.) 
