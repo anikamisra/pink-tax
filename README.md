@@ -1,6 +1,7 @@
 ### Main question: 
 How can we use multimodal Machine Learing and Artificial Intelligence to find a generalized approach to **quantifying** gender-based price discrimination in clothing companies?
-**Skills**: 
+
+**Skills used**: 
 - multimodal ML
 - computer vision
 - NLP
